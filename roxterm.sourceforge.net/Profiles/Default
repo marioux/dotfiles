@@ -1,0 +1,11 @@
+[roxterm profile]
+font=Roboto Mono for powerline 10
+cursor_blink_mode=1
+scrollbar_pos=0
+tab_close_btn=1
+tab_pos=4
+hide_menubar=1
+always_show_tabs=0
+show_add_tab_btn=1
+scroll_on_keystroke=1
+scroll_on_output=1
