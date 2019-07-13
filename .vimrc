@@ -179,7 +179,7 @@ set t_Co=256
 if &t_Co > 2 || has("gui_running")
 	syntax on
 	set hlsearch
-	"colorscheme gruvbox
+	colorscheme gruvbox
 	set background=light
 	"let g:gruvbox_contrast_light = "hard"
 

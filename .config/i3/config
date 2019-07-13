@@ -72,7 +72,8 @@ set $mod Mod1
 #font xft:Droid Sans Mono for Powerline 9
 #font xft:DejaVu Sans Mono for Powerline 9
 #font xft:Hack-Regular 9
-font xft:Roboto Mono for Powerline Bold 9
+#font xft:Roboto Mono for Powerline Bold 9
+font xft:Fira Mono for Powerline 9
 
 ## gaps
 #gaps inner 0
@@ -323,7 +324,8 @@ bar {
 	#font xft:Droid Sans Mono for Powerline 9
 	#font xft:DejaVu Sans Mono for Powerline 9
 	#font xft:Hack-Regular 9
-	font xft:Roboto Mono for Powerline Bold 9
+	#font xft:Roboto Mono for Powerline Bold 9
+	font xft:Fira Mono for Powerline 9
 	colors {
 		## Vanilla color sheme #border #backgr #font
 		#background #454545
