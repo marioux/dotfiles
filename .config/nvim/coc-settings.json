@@ -1,0 +1,54 @@
+{
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "objcpp"],
+      "rootPatterns": [".ccls-root", "compile_commands.json"],
+      "initializationOptions": {
+        "cache": {
+          "directory": ".ccls-cache"
+        },
+        "client": {
+          "snippetSupport": true
+        },
+        "compilationDatabaseDirectory": "_build"
+      }
+    },
+    "efm": {
+      "command": "efm-langserver",
+      "args": [],
+      // custom config path
+      // "args": ["-c", "/path/to/your/config.yaml"],
+      "filetypes": ["nim"]
+    },
+    "nim": {
+      "command": "nimlsp",
+      "filetypes": ["nim"],
+      "trace.server": "verbose"
+    },
+    "cmake": {
+      "command": "cmake-language-server",
+      "filetypes": ["cmake"],
+      "rootPatterns": ["build/"],
+      "initializationOptions": {
+        "buildDirectory": "build"
+      }
+    }
+  },
+  "coc.preferences.formatOnSaveFiletypes": [
+    "c",
+    "h",
+    "cpp",
+    "css",
+    "markdown",
+    "nim",
+    "json",
+    "CMakeLists.txt",
+    "cmake",
+    "python"
+  ],
+  "python.formatting.provider": "black",
+  "git.enableGlobalStatus": true,
+  "git.addGBlameToBufferVar": true,
+  "git.enableGutters": true
+}
