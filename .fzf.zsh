@@ -11,5 +11,3 @@ fi
 # Key bindings
 # ------------
 source "/home/stormvermin/.fzf/shell/key-bindings.zsh"
-
-#tesdt
